@@ -57,5 +57,5 @@ class PrototypesController < ApplicationController
     unless @prototype.user.id == current_user.id
       redirect_to action: :index
     end  
-  end  
+  end 
 end
